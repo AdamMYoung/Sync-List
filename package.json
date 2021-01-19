@@ -1,5 +1,5 @@
 {
-    "name": "sync-list",
+    "name": "sync",
     "version": "1.0.0",
     "author": {
         "name": "Adam Young",
@@ -8,6 +8,9 @@
     "private": true,
     "dependencies": {
         "@craco/craco": "^6.0.0",
+        "@fortawesome/fontawesome-svg-core": "^1.2.34",
+        "@fortawesome/free-solid-svg-icons": "^5.15.2",
+        "@fortawesome/react-fontawesome": "^0.1.14",
         "@react-firebase/database": "^0.3.11",
         "@tailwindcss/postcss7-compat": "^2.0.2",
         "@testing-library/jest-dom": "^5.11.4",
@@ -19,12 +22,19 @@
         "@types/react-dom": "^16.9.8",
         "autoprefixer": "^9.8.6",
         "firebase": "^8.2.3",
+        "is-hotkey": "^0.2.0",
+        "lodash.debounce": "^4.0.8",
         "postcss": "^7.0.35",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
         "react-router-dom": "^5.2.0",
         "react-scripts": "4.0.1",
+        "slate": "^0.59.0",
+        "slate-history": "^0.59.0",
+        "slate-react": "^0.59.0",
+        "styled-components": "^5.2.1",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+        "twin.macro": "^2.0.8",
         "typescript": "^4.0.3",
         "web-vitals": "^0.2.4",
         "workbox-background-sync": "^5.1.3",
@@ -64,6 +74,8 @@
         ]
     },
     "devDependencies": {
-        "@types/react-router-dom": "^5.1.7"
+        "@types/lodash.debounce": "^4.0.6",
+        "@types/react-router-dom": "^5.1.7",
+        "@types/styled-components": "^5.1.7"
     }
 }
